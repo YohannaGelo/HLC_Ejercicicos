@@ -28,7 +28,7 @@ public class EjercicioC {
 			while (opt < 1 || opt > 4) {
 			System.out.println("Seleccione de que figura quiere calcular el área:");
 
-			EjerciciosFunciones.menu();
+			EjerciciosFuncionesApartado0.menu();
 			opt = s.nextInt();
 
 			}
@@ -37,7 +37,7 @@ public class EjercicioC {
 			case 1:
 				System.out.print("\nIntroduce el radio: ");
 				double radio = s.nextDouble();
-				EjerciciosFunciones.areaCirculo(radio);
+				EjerciciosFuncionesApartado0.areaCirculo(radio);
 				System.out.println("\n\n\n");
 				break;
 			case 2:
@@ -45,13 +45,13 @@ public class EjercicioC {
 				double base = s.nextDouble();
 				System.out.print("\nIntroduce la altura: ");
 				double altura = s.nextDouble();
-				EjerciciosFunciones.areaTriangulo(base, altura);
+				EjerciciosFuncionesApartado0.areaTriangulo(base, altura);
 				System.out.println("\n\n\n");
 				break;
 			case 3:
 				System.out.print("\nIntroduce el lado: ");
 				double lado = s.nextDouble();
-				EjerciciosFunciones.areaCuadrado(lado);
+				EjerciciosFuncionesApartado0.areaCuadrado(lado);
 				System.out.println("\n\n\n");
 				break;
 			default:

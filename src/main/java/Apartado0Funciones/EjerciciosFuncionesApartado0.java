@@ -1,6 +1,6 @@
 package Apartado0Funciones;
 
-public class EjerciciosFunciones {
+public class EjerciciosFuncionesApartado0 {
 
 	// Función de repaso simple
 	public static void ordenNumeros(int num1, int num2) {

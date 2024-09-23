@@ -15,7 +15,7 @@ public class EjercicioB {
 		System.out.println("Por favor introduzca un número: ");
 		int num1 = s.nextInt();
 		
-		EjerciciosFunciones.sumaImpares(num1);
+		EjerciciosFuncionesApartado0.sumaImpares(num1);
 
 		
 		s.close();

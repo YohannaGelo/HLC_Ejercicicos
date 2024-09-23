@@ -11,7 +11,7 @@ public class EjercicioA {
 		// TODO Auto-generated method stub
 		int num1 = 22, num2 = 12;
 		
-		EjerciciosFunciones.todosNumeros(num1, num2);
+		EjerciciosFuncionesApartado0.todosNumeros(num1, num2);
 		
 
 	}
