@@ -89,6 +89,8 @@ public class FuncionesApartado1_claseString {
 			System.out.println("Formato de fechas incorrectas. Cerrando la aplicación.");
 			
 	    }
+		
+		
 		return 0; 
 		
 	}
