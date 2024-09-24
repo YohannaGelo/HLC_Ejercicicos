@@ -18,7 +18,7 @@ excepción.
 - Apartado extra: Crea una excepción propia que salte cuando sea la fecha de tu nacimiento.
  */
 
-public class EjercicioB {
+public class EjercicioB_claseString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -30,10 +30,10 @@ public class EjercicioB {
 			System.out.println("Bienvenido al restador de fechas. El formato de una fecha es: dd/MM/yyyy");
 			System.out.print("\nEscriba la primera fecha: ");
 			String fecha1 = s.next();
-			ExcepcionesPropias.miCumple(fecha1);
+			ExcepcionesPropias_claseString.miCumple(fecha1);
 			System.out.print("Escriba la segunda fecha: ");
 			String fecha2 = s.next();
-			ExcepcionesPropias.miCumple(fecha2);
+			ExcepcionesPropias_claseString.miCumple(fecha2);
 
 			System.out.print("¿Cuál de las 2 fechas será la primera? (Elija 1 o 2): ");
 			int opcion = s.nextInt();
@@ -47,12 +47,12 @@ public class EjercicioB {
 			System.out.println("La primera fecha es entonces:  " + fecha1);
 			System.out.println("La segunda fecha es entonces:  " + fecha2);
 
-			if (FuncionesApartado1.restadorFechas(fecha1, fecha2) != 0) {
+			if (FuncionesApartado1_claseString.restadorFechas(fecha1, fecha2) != 0) {
 
-				System.out.println("\nLa diferencia de días es: " + FuncionesApartado1.restadorFechas(fecha1, fecha2));
+				System.out.println("\nLa diferencia de días es: " + FuncionesApartado1_claseString.restadorFechas(fecha1, fecha2));
 			}
 
-		} catch (ExcepcionesPropias e) {
+		} catch (ExcepcionesPropias_claseString e) {
 			System.out.println("\nSe ha producido el siguiente error: " + e.getMessage());
 			
 

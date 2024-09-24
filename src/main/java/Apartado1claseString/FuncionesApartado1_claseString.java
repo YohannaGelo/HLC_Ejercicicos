@@ -1,6 +1,6 @@
 package Apartado1claseString;
 
-public class FuncionesApartado1 {
+public class FuncionesApartado1_claseString {
 
 	// Función apartado A
 	public static String sinCaracteresRepetidas(String str1, String str2) {

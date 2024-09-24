@@ -9,7 +9,7 @@ imprima otras dos cadenas como salida (out1, out2).
 Ejemplo: str1=aeiou r str2=eo z w out1=aiu out2=zw
  */
 
-public class EjercicioA {
+public class EjercicioA_claseString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,9 +17,7 @@ public class EjercicioA {
 		String str1 = "aeiou r";
 		String str2 = "eo z w";
 		
-		System.out.println(FuncionesApartado1.sinCaracteresRepetidas(str1, str2));
-		
-		
+		System.out.println(FuncionesApartado1_claseString.sinCaracteresRepetidas(str1, str2));
 		
 		
 	}
