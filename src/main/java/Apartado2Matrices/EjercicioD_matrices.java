@@ -20,18 +20,22 @@ public class EjercicioD_matrices {
         int temp;
         boolean flag = true;
         
+        // crea el array del usuario
         for (int i = 0; i < 5; i++) {
-        	System.out.print("Introduce el "+ i +"º numero: ");
+        	System.out.print("Introduce el "+ (i+1) +"º número: ");
         	num[i] = s.nextInt();
 		}
         
         
-
-        System.out.println("Array original:");
+        // muestra el array introducido
+        System.out.println("\nArray original:");
         for (int n : num) {
+        	if (n != 0) {
             System.out.print(n + " ");
+        	}
         }
 
+        // ordena el array
         while (flag) {
             flag = false;
             for (int i = 0; i < num.length - 1; i++) {
@@ -44,10 +48,45 @@ public class EjercicioD_matrices {
             }
         }
         
+        // muestra el array ordenado
         System.out.println("\n\nArray ordenado:");
         for (int n : num) {
+        	if (n != 0) {
             System.out.print(n + " ");
+        	}
         }
+        
+        
+        // Pide el número n y lo mete en la casilla 0, ya que estará vacia pues solo se han pedido 5 números
+        System.out.print("\n\nIntroduce otro número: ");
+    	num[0] = s.nextInt();
+    	
+    	
+    	flag = true; // reinicia la bandera
+    	// Vuelve a ordenar
+    	while (flag) {
+            flag = false;
+            for (int i = 0; i < num.length - 1; i++) {
+                if (num[i] > num[i + 1]) {      //if (num[i] > num[i + 1]) { <-- Para hacer la ordenación descendente
+                    temp = num[i];
+                    num[i] = num[i + 1];
+                    num[i + 1] = temp;
+                    flag = true;
+                }
+            }
+        }
+        
+    	// muestra el array final
+        System.out.println("\n\nNuevo array ordenado:");
+        for (int n : num) {
+        	if (n != 0) {
+            System.out.print(n + " ");
+        	}
+        }
+    	
+        
+    	
+        
         
         System.out.println("\n");     //simplemente para separar el mensaje de BUILD SUCCESSFUL (total time: 2 seconds)
 		
