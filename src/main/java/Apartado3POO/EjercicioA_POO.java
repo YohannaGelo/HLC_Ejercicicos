@@ -18,15 +18,13 @@ public class EjercicioA_POO {
 		// TODO Auto-generated method stub
 		Cuenta cuenta = new Cuenta("Pepito Perez", 1500.50);
 		
+		System.out.println("\tINFORMACIÓN: ");
 		System.out.println(cuenta.toString());
 		
 		cuenta.ingresar(250);
-		
-		System.out.println("");
 		System.out.println(cuenta.toString());
 		
 		cuenta.retirar(2050);
-		System.out.println("");
 		System.out.println(cuenta.toString());
 		
 

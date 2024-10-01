@@ -51,6 +51,7 @@ public class Cuenta {
     // METODOS
     public void ingresar (double dinero) {
     	
+    	System.out.println("\nVa ha ingresar " + dinero + " Euros/s");
     	if ( dinero > 0) {
     		this.cantidad += dinero;
     	}
@@ -59,6 +60,7 @@ public class Cuenta {
     
 	public void retirar (double dinero) {
 	    	
+		System.out.println("\nVa ha retirado " + dinero + " Euros/s");
 		if ((this.cantidad -= dinero) <= 0) {
     		this.cantidad = 0;
     	}
