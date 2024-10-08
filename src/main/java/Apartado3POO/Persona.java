@@ -12,6 +12,7 @@ public class Persona {
 	private double altura = 0;
 	private String dni;
 
+
 	// CONSTRUCTOR
 	// Un constructor por defecto.
 	public Persona() {
